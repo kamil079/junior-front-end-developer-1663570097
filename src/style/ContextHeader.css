@@ -1,0 +1,42 @@
+.context-header {
+    text-transform: uppercase;
+    height: 6.5em;
+    line-height: 6.5em;
+    border-bottom: 1px solid #F4F5F7;
+    font-weight: 700;
+    padding-left: 5em;
+
+}
+
+.context-header-underline {
+    width: 11em;
+    height: 99%;
+    border-bottom: 2px solid rgb(0, 81, 255);
+
+    display: flex;
+}
+
+.context-logo {
+    margin-left: -.2em;
+    font-size: 2.2em;
+    padding-bottom: .1em;
+    align-self: center;
+    color: rgb(0, 81, 255);
+}
+
+.context-title {
+    text-transform: uppercase;
+    height: 6.5em;
+    line-height: 6.5em;
+    border-bottom: 1px solid #F4F5F7;
+    font-weight: 700;
+    padding-left: 1em;
+    color: rgb(0, 81, 255);
+}
+
+span {
+    content: "\2609";
+    color: rgb(0, 81, 255);
+    margin-left: -0.5em;
+    font-size: 1.4em;
+}
