@@ -1,0 +1,36 @@
+.tasks {
+    grid-area: tasks;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.task-header {
+    text-transform: uppercase;
+    height: 6.5em;
+    line-height: 6.5em;
+    border-bottom: 1px solid #F4F5F7;
+    font-weight: 700;
+    padding-left: 2em;
+
+}
+
+
+.task-list li {
+    margin-left: 2em;
+
+    display: block;
+    padding: 1em;
+    cursor: pointer;
+
+    list-style: none;
+    font-weight: 500;
+
+}
+
+.task-list li:nth-child(4) {
+    font-weight: 700;
+}
+
+.task-list li:nth-child(5) {
+    opacity: .4;
+}

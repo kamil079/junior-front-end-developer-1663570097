@@ -1,0 +1,35 @@
+.menu-nav {
+    height: 7.3em;
+    width: 95%;
+
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.company-logo {
+    width: 3em;
+    height: 3em;
+    background: url('../img/logo.png') no-repeat center / contain;
+}
+
+.company-name {
+    font-size: large;
+    font-weight: 600;
+}
+
+.user-logo {
+    width: 4em;
+    height: 4em;
+    background: url('../img/user-logo.png') no-repeat center / contain;
+
+    align-self: center;
+}
