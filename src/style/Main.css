@@ -1,8 +1,9 @@
 @import url('./Tasks');
 @import url('./Context');
+@import url('./Footer');
 
 .main-container {
-    height: calc(90vh - 7.3em);
+    height: calc(95vh - 7.3em);
     width: 95%;
     margin: auto;
 
