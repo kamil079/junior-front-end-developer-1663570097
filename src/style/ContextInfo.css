@@ -1,0 +1,54 @@
+.info-header-title {
+    font-size: 2.1em;
+    font-weight: 700;
+    margin: 1.2em;
+}
+
+.info-container {
+    height: 88%;
+
+    display: flex;
+}
+
+.info-user-logo {
+    height: 100%;
+    width: 10%;
+    margin-left: 1.2em;
+}
+
+.user-avatar {
+    background: url('../img/user-logo.png') no-repeat center / contain;
+    width: 4.5em;
+    height: 4.5em;
+}
+
+.info-content {
+    height: 100%;
+    width: 85%;
+    margin-top: 1em;
+    margin-left: -1em;
+}
+
+.info-content :nth-child(1) {
+    opacity: .6;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-left: 0.3em;
+}
+
+.info-content .bold-name {
+    color: #000;
+    font-size: 1.5em;
+    opacity: 1;
+}
+
+.info-content :nth-child(2),
+.info-content :nth-child(3),
+.info-content :nth-child(4) {
+    opacity: .6;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 1em;
+    padding-bottom: 1em;
+}
+

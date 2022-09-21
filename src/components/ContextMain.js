@@ -1,10 +1,11 @@
 import ContextList from './ContextList';
+import ContextInfo from './ContextInfo';
 
 const ContextMain = () => {
     return (
         <div className="context-main">
             <ContextList/>
-            <div class="context-info"></div>
+            <ContextInfo/>
         </div>
     );
 };
